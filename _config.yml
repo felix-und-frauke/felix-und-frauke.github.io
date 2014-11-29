@@ -10,17 +10,14 @@ nav:
     title: "Home"
     href: "/"
   -
+    title: "Programm"
+    href: "/programm.html"
+  -
     title: "Anfahrt"
     href: "/anfahrt.html"
   -
     title: "Unterkunft"
     href: "/unterkunft.html"
   -
-    title: "Programm"
-    href: "/programm.html"
-  -
-    title: "Geschenke"
-    href: "/geschenke.html"
-  -
-    title: "Bestätigen"
-    href: "/bestaetigen.html"
+    title: "Zusage"
+    href: "/zusage.html"
