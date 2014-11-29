@@ -1,0 +1,84 @@
+html{
+  font-size: 18px;
+  @media (max-width: 1600px) {font-size: 22px;}
+  @media (max-width: 1200px) {font-size: 16px;}
+  @media (max-width: 600px) {font-size: 14px;}
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.home{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(/assets/img/castle.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .content{
+    max-width: none;
+    text-shadow: 2px 2px #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Rouge Script', cursive;
+    h1,h2{
+      margin: 0;
+    }
+    h1{
+      font-size: 1em;
+    }
+    h2{
+      font-size: 0.8em;
+    }
+  }
+}
+
+a{
+  color: #000;
+}
+
+.nav{
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: #000;
+  padding: 0.8rem 0;
+  ul {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+  }
+  li{
+    display: inline;
+    font-size: 1em;
+    margin-right: 1em;
+  }
+  a{
+    text-decoration: none;
+    &:hover, &.active{
+      border-top: 3px solid #000;
+    }
+  }
+  .confirm{
+    font-weight: bold;
+  }
+}
+

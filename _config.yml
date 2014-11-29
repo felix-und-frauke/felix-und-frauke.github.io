@@ -1,0 +1,26 @@
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.felix-und-frauke.de" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+nav:
+  -
+    title: "Home"
+    href: "/"
+  -
+    title: "Anfahrt"
+    href: "/anfahrt.html"
+  -
+    title: "Unterkunft"
+    href: "/unterkunft.html"
+  -
+    title: "Programm"
+    href: "/programm.html"
+  -
+    title: "Geschenke"
+    href: "/geschenke.html"
+  -
+    title: "Bestätigen"
+    href: "/bestaetigen.html"
